@@ -1,4 +1,5 @@
 import { createContext, useState, useEffect } from "react";
+import { useLocalStorage } from "../hooks/useLocalStorage";
 
 interface ProductItem {
   id: number;
@@ -25,7 +26,7 @@ interface CartProviderProps {
 export const CartContext = createContext({} as CartContext);
 
 export const CartProvider: React.FC<CartProviderProps> = ({ children }) => {
-  const [cart, setCart] = useState<ProductItem[]>([]);
+  const [cart, setCart] = useLocalStorage<ProductItem[]>('shoppingCart' ,[]);
   const [data, setData] = useState<ProductItem[]>([]);
 
   useEffect(() => {
