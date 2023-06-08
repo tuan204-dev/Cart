@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "MacBook",
+    "quantity": 3,
+    "imgUrl": "https://cdn.thewirecutter.com/wp-content/media/2022/08/macbook-2048px-9765.jpg",
+    "price": 20
+  },
+  {
+    "id": 2,
+    "name": "iPhone 14",
+    "quantity": 3,
+    "imgUrl": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-14-pro-finish-select-202209-6-1inch-deeppurple?wid=2560&hei=1440&fmt=jpeg&qlt=95&.v=1663703840578",
+    "price": 30
+  },
+  {
+    "id": 3,
+    "name": "Apple Watch",
+    "quantity": 5,
+    "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPCfaPHd0nXk5T8xOs9_4oXUhGjrGK3q-8zg&usqp=CAU",
+    "price": 10
+  },
+  {
+    "id": 4,
+    "name": "iPad",
+    "quantity": 2,
+    "imgUrl": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-10th-gen-finish-select-202212-blue-wifi_FMT_WHH?wid=1280&hei=720&fmt=p-jpg&qlt=95&.v=1670856032314",
+    "price": 5
+  }
+]
